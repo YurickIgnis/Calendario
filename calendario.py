@@ -365,7 +365,7 @@ def main_loop(service_google, ms_token):
 
         # Espera un tiempo específico antes de volver a verificar, por ejemplo, 5 minutos.
         print("Esperando 2 minutos antes de la próxima verificación...")
-        time.sleep(60)    
+        time.sleep(5)    
 
 
 if __name__ == "__main__":
